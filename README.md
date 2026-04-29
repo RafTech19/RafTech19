@@ -24,19 +24,25 @@
 ---
 
 ## 🧠 About Me
-
 ```python
-rafli = {
-    "background"  : "Geological Engineering → Data Analytics",
-    "education"   : "Universitas Diponegoro (GPA 3.65) + Hacktiv8 Bootcamp (Score: 94.24%)",
-    "focus"       : ["ETL Pipelines", "Data Analysis", "Business Intelligence"],
-    "currently"   : "Open to Junior Data Analyst / Data Engineer roles 🚀",
-    "fun_fact"    : "I used to read rock layers — now I read data layers 🪨📊"
-}
+class Rafli:
+    def __init__(self):
+        self.background   = "Geological Engineering → Data Analytics"
+        self.strengths    = ["ETL Pipelines", "Data Cleaning", "Visualization"]
+        self.stack        = ["Python", "SQL", "PySpark", "Airflow"]
+        self.currently    = "Open to Junior Data Analyst roles 🚀"
+        self.superpower   = "Reading patterns — in rocks and in data 🪨📊"
+
+    def describe(self):
+        return (
+            "Geological engineer who crossed over to data. "
+            "I build pipelines, clean messy datasets, and "
+            "turn numbers into decisions people can act on."
+        )
 ```
 
-> Analytical mind sharpened by earth science, refined by data engineering.  
-> I build pipelines, find patterns, and translate numbers into strategy.
+> 📍 Bekasi, West Java  |  📧 rafli.bim05@gmail.com
+
 
 ---
 
@@ -134,7 +140,7 @@ Built an ETL pipeline to scrape Samsung product data from Lazada and store it in
 
 ```
 2026 ──── 🎓 Hacktiv8 Data Analytics Bootcamp (Score: 94.24%)
-          └── ETL pipelines, PySpark, Airflow, BI dashboards
+          └── Data cleaning, Data Analysis, Dashboarding, ETL Pipeline
 
 2025-2026 ── 📋 Marketing Admin Intern @ PAM Jaya
              └── Managed 120,000+ customer records, data validation & integrity
